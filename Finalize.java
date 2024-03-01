@@ -8,8 +8,8 @@ public class Finalize
 		System.out.println("Object reference is..abhinav.finalise();"+ abhinav);
 		abhinav.finalise();
 		System.gc();
-		System.out.println("Object garbage collected");
-	}
+		System.out.println("Object garbage collected")
+   }
 }
 class studentl
 {
@@ -29,10 +29,10 @@ class studentl
 	void display() 
   {
 	System.out.println(rno + "It\t" + name + "It\t" + res);
-	}
+  }
 	protected void finalise() 
   {
 	sc.close();
 	System.out.println("Object Cleaned Up By Finalize Method");
-	}
+  }
 }
